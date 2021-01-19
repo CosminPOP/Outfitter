@@ -3776,7 +3776,7 @@ function Outfitter_GetPlayerAuraStates()
 					vAuraStates[vSpecialID] = true;
 				
 				elseif vTextLine2
-				and (string.find(vTextLine2, Outfitter_cMountSpeedFormat) or vTextLine2 == 'Slow and steady...' or vTextLine2 == 'Increases speed based on Riding Skill.') then
+				and (string.find(vTextLine2, Outfitter_cMountSpeedFormat) or vTextLine2 == 'Slow and steady...' or vTextLine2 == 'Increases speed based on Riding skill.') then
 					vAuraStates.Riding = true;
 				end
 			end
